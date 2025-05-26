@@ -1,13 +1,13 @@
 ### Database connection
 ```
- <?php
-$mysqli = new mysqli("localhost","root","","social");
-
-// Check connection
-if ($mysqli -> connect_errno) {
-  echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
-  exit();
-}
+<?php
+   $mysqli = new mysqli("localhost","root","","social");
+   
+   // Check connection
+   if ($mysqli -> connect_errno) {
+     echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+     exit();
+   }
 ?> 
 ```
 
