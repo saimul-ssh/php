@@ -1,0 +1,8 @@
+inner join (for common data)
+SELECT * FROM customers INNER JOIN products ON customers.id = products.cid
+
+Left join (fetch all information from Left table fetch common data from Right table )
+SELECT * FROM customers LEFT JOIN products ON customers.id = products.cid
+
+Right join (fetch common data from Left table fetch all information from Right table)
+SELECT * FROM customers RIGHT JOIN products ON customers.id = products.cid
